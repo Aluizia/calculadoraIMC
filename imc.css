@@ -10,11 +10,14 @@
 
 body {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     margin: 0; 
     background: linear-gradient(90deg, rgb(107, 107, 107), rgb(11, 11, 11));   
     height: 100vh;
+}
+.tabela{
+  background: #FFF;
 }
 .imc {
     display: flex;
