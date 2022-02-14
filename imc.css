@@ -16,6 +16,33 @@ body {
     background: linear-gradient(90deg, rgb(107, 107, 107), rgb(11, 11, 11));   
     height: 100vh;
 }
+.topo{
+ display: flex;
+ align-items: center;
+ color: black;
+ width: 300px;
+ height: 50px;
+
+}
+.tabela{
+  display: inline;
+  width: 300px;
+  position: absolute;
+  background: #FFF;
+  border-radius: 5%;
+}
+  .drop {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.527)
+}
 .imc {
     display: flex;
     align-items: center;
@@ -23,17 +50,21 @@ body {
     flex-direction: column;
     height: 500px;
     width: 300px;
+    color: rgb(194, 184, 172);
     border-radius: 8px;
     box-shadow: 1px 3px 8px #000;
 }
 h1{
-  color: #FFF;
+  display: flex;
+  align-items: center;
+
+  height:90px ;
 }
 .resultado {
     text-align: center;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    height: 50px;
+    height: 100px;
     width: 265px;
     background: #000;
     border-radius: 8px;
@@ -75,7 +106,12 @@ button {
     border: none;
     border-radius: 5px;
 }
-
+.ver{
+  margin-top: 4px;
+  text-decoration: none;
+  color:yellow;
+  cursor: pointer;
+}
 button:hover {
     background-color: #162f3b;
 }
